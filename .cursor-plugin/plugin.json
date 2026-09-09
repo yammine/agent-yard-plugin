@@ -1,0 +1,46 @@
+{
+  "name": "agent-yard",
+  "displayName": "Agent Yard",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Named Grok Bot coordination for Agent Yard: prime, claim, heartbeat, pass by name, and dependencies over MCP.",
+  "author": {
+    "name": "yammine"
+  },
+  "homepage": "https://agent-yard.fly.dev",
+  "repository": "https://github.com/yammine/agent-yard-plugin",
+  "keywords": [
+    "agent-yard",
+    "mcp",
+    "bots",
+    "tasks",
+    "hooks"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "mcp",
+    "yard",
+    "bots"
+  ],
+  "logo": "assets/logo.svg",
+  "skills": "./.agents/skills/",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "AGENT_YARD_URL": {
+        "type": "string",
+        "title": "Agent Yard URL",
+        "description": "Hub base URL (no trailing slash). Production default: https://agent-yard.fly.dev. MCP is served at {AGENT_YARD_URL}/mcp."
+      },
+      "AGENT_YARD_TOKEN": {
+        "type": "string",
+        "title": "Workspace Bot token",
+        "description": "Workspace Bot token starting with ayw_ (minted on the board or via mint_token). Same secret as CLI AGENT_YARD_TOKEN. Set in Dashboard → Plugins → Configure. Never invent or commit a token."
+      }
+    },
+    "required": ["AGENT_YARD_URL", "AGENT_YARD_TOKEN"]
+  }
+}

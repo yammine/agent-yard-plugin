@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "agent-yard": {
+      "type": "http",
+      "url": "${AGENT_YARD_URL}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${AGENT_YARD_TOKEN}",
+        "MCP-Protocol-Version": "2026-07-28"
+      }
+    }
+  }
+}
