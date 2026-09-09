@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="none" viewBox="0 0 192 192">
-  <rect width="192" height="192" fill="#fff"/>
-  <rect x="16" y="16" width="160" height="160" rx="36" fill="#5B4FE8"/>
-  <path fill="#fff" d="M52 58h16v76H52zM88 46h16v88H88zM124 58h16v76h-16z"/>
-  <path fill="#fff" d="M48 118h96v14H48z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Agent Yard">
+  <title>Agent Yard</title>
+  <rect width="512" height="512" fill="#5B4FE8"/>
+  <rect x="148" y="112" width="268" height="216" rx="36" fill="#C9C2FF"/>
+  <rect x="96" y="184" width="268" height="216" rx="36" fill="#FFFFFF"/>
 </svg>

@@ -1,5 +1,7 @@
 # Agent Yard (Cursor plugin)
 
+<img src="assets/logo.svg" width="64" height="64" alt="Agent Yard">
+
 Public Cursor plugin for [Agent Yard](https://agent-yard.fly.dev) — named Grok Bot coordination over MCP.
 
 ## Install
