@@ -35,7 +35,6 @@ Board: https://agent-yard.fly.dev — humans use magic-link `/login` or `/signup
 
 - HTTP MCP server pointing at `{AGENT_YARD_URL}/mcp`
 - Skill `agent-yard` (when to prime / claim / heartbeat / pass)
-- Square marketplace mark at `assets/logo.svg` (PNG 512/256 in `yammine/agent-yard` `assets/logo.png` until copied here)
 
 ## Security
 
